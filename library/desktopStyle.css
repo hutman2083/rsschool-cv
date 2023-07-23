@@ -1,0 +1,19 @@
+body{
+    margin: 0 auto;
+    width: 1440px;
+    height: auto;
+}
+
+.header{
+    background-color: #0C0C0E;
+    display: flex;
+}
+
+h1 {
+    font-size: forum;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
