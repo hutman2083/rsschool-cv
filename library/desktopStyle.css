@@ -2,18 +2,73 @@ body{
     margin: 0 auto;
     width: 1440px;
     height: auto;
+    background-color: #0C0C0E;
 }
 
 .header{
     background-color: #0C0C0E;
     display: flex;
+    color: #FFF;
 }
 
 h1 {
     font-size: forum;
+    margin-right: 454px;
+    
 }
 
 .menu{
     display: flex;
     gap: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin-right: 40px;
+}
+
+.icon{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    padding: 31px 31px;
+}
+
+.main{
+    height: auto;
+}
+
+.img1{
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    background-image: url(./welcome-1440.jpg);
+}
+
+.welcome-bg{
+    position: absolute;
+    width: 660px;
+    height: 220px;
+    background-color: #0C0C0E;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 255px;
+}
+.welcome{
+    position: absolute;
+    width: 520px;
+    height: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 35px 40px;
 }
