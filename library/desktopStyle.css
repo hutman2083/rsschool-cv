@@ -89,9 +89,10 @@ h2{
     letter-spacing: 2px;
     text-transform: capitalize;
     text-align: center;
+    margin-top: 0px;
 }
 
-.about-line{
+.line{
     width: 50px;
     height: 1px;
     flex-shrink: 0;
@@ -125,4 +126,166 @@ h2{
     height: 16px;
     flex-shrink: 0;
     margin-left: 686px;
+}
+
+.FavouritesBlock{
+    height: 1439px;
+    background: #FFF;
+}
+
+h3{
+    padding-top: 20px;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.paragraph-season{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.radio-buttons{
+    margin-left: 20px;
+}
+
+label{
+    margin-right: 90px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.first-row-bg-descriptions{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.first-bg-descrption{
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 260px;
+}
+
+.staff{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.line-description{
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    margin-left: 20px;
+}
+
+.book-name{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+#description{
+    width: 355px;
+    height: 320px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+button{
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.book{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    top: 255px;
+    left: 390px;
+}
+
+.second-bg-descrption{
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.second-row-bg-descriptions{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.third-bg-descrption{
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 260px;
+}
+
+.fourth-bg-descrption{
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
