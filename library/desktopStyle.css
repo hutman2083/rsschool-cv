@@ -231,7 +231,9 @@ label{
     text-transform: capitalize;
     margin-left: 20px;
 }
-button{
+
+.buy{
+    cursor: pointer;
     width: 75px;
     height: 30px;
     flex-shrink: 0;
@@ -540,13 +542,20 @@ button{
     height: 614px;
     background: #FFF;
 }
+.find-card-block{
+    display: flex;
+
+}
 
 .find-card{
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 453px;
+    height: 386px;
     flex-shrink: 0;
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 344px;
 }
 
 .title-find-card{
@@ -557,6 +566,7 @@ button{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
+    margin-bottom: 30px;
 }
 
 .card-block{
@@ -567,6 +577,7 @@ button{
     background: #FFF;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .inside-card-block{
@@ -576,6 +587,8 @@ button{
     background: #BB945F;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+    padding:20px;
 }
 
 .title{
@@ -586,6 +599,7 @@ button{
     font-weight: 400;
     line-height: 50px; /* 166.667% */
     letter-spacing: 0.6px;
+    text-align: left;
 }
 
 .reader{
@@ -619,9 +633,186 @@ button{
 }
 
 .check-the-card{
-    display: inline-flex;
     padding: 10px 40px;
     align-items: flex-end;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
+    width: 242px;
+    height: 44px;
+    margin-left: 179px;
+}
+
+.reader{
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.get-card{
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+.title-get{
+    color: #000;
+    text-align: right;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.description-card{
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.row-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: end;
+    
+}
+
+.reqistration-buttons{
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-right: 20px;
+}
+
+#footer{
+    width: 1440px;
+    height: 250px;
+    background: #0C0C0E;
+    margin-top: -8px;
+}
+
+.first-footer{
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.street{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    height: 40px;
+}
+
+.schedule{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    height: 40px;
+    margin-top: 10px;
+}
+
+.second-footer{
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.icon-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap:15px;
+}
+
+.schedule-weekend{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    height: 40px;
+    margin-top: 0px;
+}
+
+.line-footer{
+    width: 1400px;
+}
+
+.third-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.date{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+}
+
+.name-cource{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+}
+
+.username{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
 }
