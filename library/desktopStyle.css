@@ -535,3 +535,93 @@ button{
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
+.digital-library-cards{
+    height: 614px;
+    background: #FFF;
+}
+
+.find-card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 453px;
+    flex-shrink: 0;
+}
+
+.title-find-card{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.card-block{
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.inside-card-block{
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.reader{
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.card-number{
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.check-the-card{
+    display: inline-flex;
+    padding: 10px 40px;
+    align-items: flex-end;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
